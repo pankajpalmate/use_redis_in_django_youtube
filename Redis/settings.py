@@ -25,7 +25,7 @@ SECRET_KEY = '1#ragxkb)=jkg4r9(xn95xt=b(1$@rkwx0%$dx^_r1x!(ip3@6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
