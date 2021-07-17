@@ -87,7 +87,7 @@ CACHE_TTL = 60 * 1500
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://pankaj-redis.ib12kt.0001.aps1.cache.amazonaws.com",
+        "LOCATION": "redis://pankaj-redis.ib12kt.0001.aps1.cache.amazonaws.com:6379",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient"
         },
